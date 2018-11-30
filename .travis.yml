@@ -10,8 +10,8 @@ script:
 <<<<<<< HEAD
     - pytest -v --cov ireporter --cov-report term-missing 
 =======
-#     - pytest -v --cov ireporter --cov-report term-missing 
-- pytest
+    - pytest -v --cov ireporter --cov-report term-missing 
+# - pytest
 >>>>>>> cdf0f79c34363da76737bc476cb984aae2c6334e
     
 after_success:
